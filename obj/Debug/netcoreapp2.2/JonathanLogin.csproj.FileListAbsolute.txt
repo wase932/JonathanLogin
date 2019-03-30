@@ -28,3 +28,4 @@ C:\Users\D040850\Documents\VS Code\JonathanLogin\obj\Debug\netcoreapp2.2\Jonatha
 C:\Users\D040850\Documents\VS Code\JonathanLogin\obj\Debug\netcoreapp2.2\JonathanLogin.dll
 C:\Users\D040850\Documents\VS Code\JonathanLogin\obj\Debug\netcoreapp2.2\JonathanLogin.pdb
 C:\Users\D040850\Documents\VS Code\JonathanLogin\obj\Debug\netcoreapp2.2\JonathanLogin.csproj.CopyComplete
+C:\Users\D040850\Documents\VS Code\JonathanLogin\obj\Debug\netcoreapp2.2\Razor\Views\Login\login.g.cshtml.cs

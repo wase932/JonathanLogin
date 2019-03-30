@@ -10,8 +10,10 @@ namespace JonathanLogin.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(string email)
         {
+            if(email != null)
+                ViewData["AuthenticatedEmail"] = email;
             return View();
         }
 

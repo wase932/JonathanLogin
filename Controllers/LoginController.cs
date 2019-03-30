@@ -15,13 +15,13 @@ namespace JonathanLogin.Controllers
             return View();
         }
 
-        
+
 
         [HttpPost]
         [AutoValidateAntiforgeryToken]
         public IActionResult Authenticate(LoginViewModel model){
             if(ModelState.IsValid)
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Home", new {email = model.Email});
             return View();            
         }
     }
